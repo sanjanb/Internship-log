@@ -4,7 +4,7 @@
 **Week**: 04
 **Dates**: 2025-06-23 – 2025-06-30  
 **Internship**: AI/ML Intern at SynerSense Pvt. Ltd.  
-**Mentor**: Pradeep Kulkarni sir
+**Mentor**: Praveen Kulkarni sir
 
 ---
 
