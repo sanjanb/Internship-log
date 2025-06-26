@@ -1,4 +1,5 @@
-
-title: "Internship Logs – Sanjan B M"
-theme: jekyll-theme-cayman
-description: Weekly logs, learnings, and progress from my SynerSense internship.
+title: "Sanjan's Internship Log"
+description: Weekly log, projects, and insights from my SynerSense internship.
+theme: jekyll-theme-minimal
+show_downloads: false
+google_analytics: UA-XXXXXXXXX-X  # optional
