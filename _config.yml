@@ -1,4 +1,13 @@
-title: "Sanjan's Internship Log"
-description: "Weekly logs, tasks, and learnings from SynerSense internship."
-remote_theme: just-the-docs/just-the-docs  # or mmistakes/minimal-mistakes
-color_scheme: light
+title: "Sanjan's Internship Docs"
+description: Weekly updates & projects from my AI/ML Internship at SynerSense.
+theme: "just-the-docs"
+
+# Enable sidebar nav
+just_the_docs:
+  logo: "/assets/logo.png"  # optional
+  color_scheme: "light"
+  search_enabled: true
+  show_last_edit_time: true
+  nav_sort: case_insensitive
+
+url: "https://your-username.github.io/Internship-log"  # change this to your actual repo
