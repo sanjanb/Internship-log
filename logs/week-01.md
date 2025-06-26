@@ -1,9 +1,9 @@
 # Week 1 – Internship Progress Log
 
 **Week**: 01  
-**Dates**: [June 1, 2025 – June 7, 2025]  
-**Internship**: [AI/ML Intern at SynerSense Pvt. Ltd.]  
-**Mentor**: [Pradeep sir.]
+**Dates**: June 1, 2025 – June 7, 2025 
+**Internship**: AI/ML Intern at SynerSense Pvt. Ltd.
+**Mentor**: Pradeep Kulkarni sir.
 
 ---
 
