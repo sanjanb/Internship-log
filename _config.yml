@@ -1,4 +1,4 @@
 title: "Sanjan's Internship Log"
-description: Weekly log, projects, and insights from my SynerSense internship.
-remote_theme: mmistakes/minimal-mistakes
-show_downloads: false
+description: "Weekly logs, tasks, and learnings from SynerSense internship."
+remote_theme: just-the-docs/just-the-docs  # or mmistakes/minimal-mistakes
+color_scheme: light
