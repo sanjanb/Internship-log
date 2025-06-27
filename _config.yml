@@ -1,7 +1,10 @@
-title: "Sanjan's Internship logs"
-description: Weekly updates & projects from my AI/ML Internship at SynerSense.
-theme: just-the-docs
-baseurl: "/internship-log" 
+title: "Sanjan's Internship Docs"
+description: Weekly log, projects, and insights from my SynerSense internship.
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+baseurl: "/Internship-log"
+
 
 # Enable sidebar nav
 just_the_docs:
