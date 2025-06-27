@@ -1,5 +1,5 @@
 
-#  Week 04 – Internship Progress Log
+#  Week 04 
 
 **Week**: 04
 **Dates**: 2025-06-23 – 2025-06-30  
