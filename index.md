@@ -3,7 +3,7 @@ title: "Sanjan's Internship Log"
 description: Weekly log, projects, and insights from my SynerSense internship.
 ---
 
-<img src="{{ site.baseurl }}/assets/images/bannerui.png" alt="Internship Banner" style="width:100%; border-radius: 12px; margin-bottom: 20px;" />
+<img src="{{ site.baseurl }}/assets/images/banneru.png" alt="Internship Banner" style="width:100%; border-radius: 12px; margin-bottom: 20px;" />
 
 # Welcome to My Internship Log
 
