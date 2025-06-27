@@ -29,10 +29,12 @@ Whether you're a fellow intern, mentor, or someone curious about the process —
 
 ## Weekly Progress Logs
 
-- [Week 01 – Unsupervised Pretraining on MNIST](logs/week-01.md)
-- [Week 02 – ComfyUI Facial Workflows](logs/week-02.md)
-- [Week 03 – Hugging Face OAuth + Gradio Login](logs/week-03.md)
-- [Week 04 – Login UI, Debugging Spaces & Deployment](logs/week-04.md)
+| Week | Dates               | Highlights                                      |
+|------|---------------------|--------------------------------------------------|
+| [Week 01](logs/week-01.md) | May 25 – June 1   | MNIST unsupervised pretraining & binary classifier |
+| [Week 02](logs/week-02.md) | June 2 – June 8   | ComfyUI, face masking, scar inpainting             |
+| [Week 03](logs/week-03.md) | June 15 – June 22 | ControlNet, scar replacement, facial refinement    |
+| [Week 04](logs/week-04.md) | June 23 – June 30 | OAuth login in HF Spaces, Docker fixes             |
 
 > Updated every week with new logs and insights.
 
