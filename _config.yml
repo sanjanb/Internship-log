@@ -1,6 +1,7 @@
 title: "Sanjan's Internship logs"
 description: Weekly updates & projects from my AI/ML Internship at SynerSense.
 remote_theme: just-the-docs/just-the-docs
+baseurl: "/internship-log" 
 
 # Enable sidebar nav
 just_the_docs:
