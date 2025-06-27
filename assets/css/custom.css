@@ -1,0 +1,12 @@
+:root {
+  --color-primary: #007acc;
+  --color-background: #fdfdfd;
+  --color-sidebar-background: #f3f4f6;
+  --color-link: #007acc;
+  --color-link-hover: #005f99;
+}
+
+h1, h2, h3 {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 600;
+}
