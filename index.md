@@ -51,8 +51,8 @@ Whether you're a fellow intern, mentor, or someone curious about the process —
 
 Feel free to reach out or check my other work:
 
-- 🔗 [GitHub Profile](https://github.com/your-username)
-- 📨 [Email](mailto:your-email@example.com)
+- 🔗 [GitHub Profile](https://github.com/sanjanb)
+- 📨 [Email](mailto:sanjanacharaya1234@gmail.com)
 
 ---
 
