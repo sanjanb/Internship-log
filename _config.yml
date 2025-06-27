@@ -9,5 +9,18 @@ just_the_docs:
   search_enabled: true
   show_last_edit_time: true
   nav_sort: case_insensitive
+  collections:
+    logs:
+      permalink: "/:path/"
+      output: true
+  aux_links:
+    View on GitHub: https://github.com/sanjanb/internship-log
+  scripts:
+    - /assets/js/back-to-top.js
+
+sass:
+  load_paths:
+    - _sass
+    - assets/css
 
 url: "https://sanjanb.github.io/Internship-log"  # change this to your actual repo
