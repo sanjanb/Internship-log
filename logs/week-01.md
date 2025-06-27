@@ -1,4 +1,4 @@
-#  Week 01 – Internship Progress Log
+#  Week 01 
 
 **Week**: 01  
 **Dates**: 2025-05-25 – 2025-06-01  
