@@ -1,4 +1,4 @@
-# Week 3 – Internship Progress Log
+# Week 3 
 
 **Week**: 03  
 **Dates**: June 15, 2025 – June 22, 2025 
