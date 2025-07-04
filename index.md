@@ -1,5 +1,5 @@
 ---
-title: "Sanjan's Internship Log"
+title: "Internship Log"
 description: Weekly log, projects, and insights from my SynerSense internship.
 ---
 
