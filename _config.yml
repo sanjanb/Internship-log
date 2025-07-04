@@ -11,6 +11,7 @@ just_the_docs:
   logo: /assets/images/logo.png
   favicon_ico: /assets/images/favicon.ico  # optional
   color_scheme: "dark"
+  heading_anchors: true
   search_enabled: true
   show_last_edit_time: true
   nav_sort: case_insensitive
