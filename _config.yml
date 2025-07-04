@@ -23,7 +23,7 @@ just_the_docs:
   collections:
     logs:
       output: true
-      permalink: /logs/:path/
+      permalink: "/:path/"
   aux_links:
     View on GitHub: https://github.com/sanjanb/internship-log
   scripts:
