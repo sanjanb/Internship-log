@@ -21,7 +21,7 @@ This space documents my journey as an intern, filled with weekly logs, hands-on 
 ---
 
 {: .callout-info }
-## What This Site Contains
+### What This Site Contains
 This space is a weekly journal of everything I'm working on during my AI/ML internship. It includes:
 
 - Weekly goals
@@ -47,7 +47,7 @@ Whether you're a fellow intern, mentor, or someone curious about the process —
 > Updated every week with new logs and insights.
 
 ---
-
+{: .callout-info }
 ## Tools & Topics Explored
 
 - **AI/ML**: PyTorch, classification, autoencoders, inpainting
