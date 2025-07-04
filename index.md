@@ -47,7 +47,8 @@ Whether you're a fellow intern, mentor, or someone curious about the process —
 > Updated every week with new logs and insights.
 
 ---
-{: .callout-info }
+
+{: .callout }
 ## Tools & Topics Explored
 
 - **AI/ML**: PyTorch, classification, autoencoders, inpainting
@@ -57,7 +58,7 @@ Whether you're a fellow intern, mentor, or someone curious about the process —
 
 ---
 
-## 💡 Sample Workflow Diagram
+##  Sample Workflow Diagram
 
 ```mermaid
 graph TD;
