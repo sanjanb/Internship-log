@@ -15,7 +15,7 @@ description: Weekly log, projects, and insights from my SynerSense internship.
 ---
 
 {: .callout-info }
-### 🔍 What You’ll Find Here
+###  What You’ll Find Here
 This space documents my journey as an intern, filled with weekly logs, hands-on experiments, key learnings, and all the technical depth I’ve explored so far.
 
 ---
