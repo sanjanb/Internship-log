@@ -7,9 +7,12 @@ plugins:
 baseurl: "/Internship-log"
 url: "https://sanjanb.github.io/Internship-log"
 
-# Just the Docs settings
 just_the_docs:
-  navigation: _data/navigation.yml            
+  collections:
+    logs:
+      name: "Weekly Logs"
+      output: true
+      permalink: "/:collection/:name"
   enable_copy_code_button: true
   logo: /assets/images/logo.png
   favicon_ico: /assets/images/favicon.ico
