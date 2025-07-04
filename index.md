@@ -1,7 +1,12 @@
 ---
-title: "Internship Log"
+layout: default
+title: "Internship Docs"
+nav_order: 1
+has_children: true
 description: Weekly log, projects, and insights from my SynerSense internship.
+permalink: /
 ---
+
 
 <img src="{{ site.baseurl }}/assets/images/banneru.png" alt="Internship Banner" style="width:100%; border-radius: 12px; margin-bottom: 20px;" />
 
