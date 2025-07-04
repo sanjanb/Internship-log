@@ -20,10 +20,6 @@ just_the_docs:
   nav_sort: case_insensitive
   mermaid:
     version: "9.4.3"
-  collections:
-    logs:
-      output: true
-      permalink: "/:path/"
   aux_links:
     View on GitHub: https://github.com/sanjanb/internship-log
   scripts:
