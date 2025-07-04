@@ -1,9 +1,21 @@
-#  Week 02 
+---
+layout: default
+title: Week 02
+parent: Weekly Logs
+nav_order: 2
+---
 
-**Week**: 02  
-**Dates**: 2025-06-01 – 2025-06-07 
+# Week 02 – Biometric Generation & Facial Editing
+
+**Dates**: 2025-06-01 – 2025-06-07  
 **Internship**: AI/ML Intern at SynerSense Pvt. Ltd.  
-**Mentor**: Praveen Kulkarni sir
+**Mentor**: Praveen Kulkarni Sir
+
+---
+
+{: .callout-info }
+### Focus
+This week involved exploring ComfyUI and other tools to synthetically generate facial biometric data, modify features using inpainting, and experiment with scar overlays.
 
 ---
 
@@ -30,6 +42,7 @@
 
 ## Key Learnings
 
+{: .callout-success }
 - ComfyUI workflows can be fine-tuned for biometric and facial realism
 - Stable Diffusion inpainting + ControlNet enables creative control
 - Multiple tools offer trade-offs: use what fits the goal & complexity
@@ -48,7 +61,7 @@
 
 ---
 
-## 📎 Links
+## 📎 References
 
 - [ComfyUI GitHub](https://github.com/comfyanonymous/ComfyUI)
 - [ControlNet Guide](https://github.com/lllyasviel/ControlNet)
@@ -66,11 +79,11 @@
 
 ---
 
-## 📸 Screenshots (Optional)
+## Screenshots (Optional)
 
 > Add before/after images, mask editor view, scar rendering outputs
 
 ---
 
-> _"This week taught me that tool flexibility matters as much as skill depth—great workflows come from trying, tweaking, and switching when needed."_
-
+{: .callout }
+_“This week taught me that tool flexibility matters as much as skill depth—great workflows come from trying, tweaking, and switching when needed.”_
