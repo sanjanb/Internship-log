@@ -1,32 +1,46 @@
 /* === Custom Callouts === */
 
-.callout {
+.callout,
+.callout-info,
+.callout-success,
+.callout-warning,
+.callout-danger {
   padding: 1rem 1.25rem;
-  border-left: 5px solid #4f4f4f;
+  border-left: 5px solid;
   border-radius: 8px;
   margin: 1.5rem 0;
-  background-color: #2a2a2a; /* Dark background */
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  color: #f8f8f8 !important; /* Bright readable text */
+  font-size: 0.95rem;
+  line-height: 1.6;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-/* Optional variations */
+/* Default callout */
+.callout {
+  background-color: #2a2a2a;
+  border-color: #888;
+}
+
+/* Info callout */
 .callout-info {
+  background-color: #21303f;
   border-color: #3498db;
-  background-color: #1f2a33;
 }
 
+/* Success callout */
 .callout-success {
+  background-color: #1e372a;
   border-color: #2ecc71;
-  background-color: #1f332a;
 }
 
+/* Warning callout */
 .callout-warning {
+  background-color: #3a2f1f;
   border-color: #f39c12;
-  background-color: #332a1f;
 }
 
+/* Danger callout */
 .callout-danger {
+  background-color: #3a1f1f;
   border-color: #e74c3c;
-  background-color: #331f1f;
 }
