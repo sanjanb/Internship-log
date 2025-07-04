@@ -19,7 +19,7 @@ description: Weekly log, projects, and insights from my SynerSense internship.
 This space documents my journey as an intern, filled with weekly logs, hands-on experiments, key learnings, and all the technical depth I’ve explored so far.
 
 ---
-
+{: .callout }
 ## What This Site Contains
 
 This space is a weekly journal of everything I'm working on during my AI/ML internship. It includes:
