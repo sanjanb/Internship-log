@@ -1,4 +1,4 @@
-title: "Sanjan's Internship Docs"
+title: "Internship Docs"
 description: Weekly log, projects, and insights from my SynerSense internship.
 remote_theme: just-the-docs/just-the-docs
 plugins:
@@ -9,7 +9,7 @@ url: "https://sanjanb.github.io/Internship-log"
 
 # Just the Docs settings
 just_the_docs:
-  navigation: true               # 🔥 Enable _data/navigation.yml
+  navigation: true               
   enable_copy_code_button: true
   logo: /assets/images/logo.png
   favicon_ico: /assets/images/favicon.ico
