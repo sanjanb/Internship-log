@@ -14,6 +14,12 @@ description: Weekly log, projects, and insights from my SynerSense internship.
 
 ---
 
+{: .callout-info }
+### 🔍 What You’ll Find Here
+This space documents my journey as an intern, filled with weekly logs, hands-on experiments, key learnings, and all the technical depth I’ve explored so far.
+
+---
+
 ## What This Site Contains
 
 This space is a weekly journal of everything I'm working on during my AI/ML internship. It includes:
@@ -50,6 +56,16 @@ Whether you're a fellow intern, mentor, or someone curious about the process —
 - **Infra & Debugging**: Docker, Python envs, permission handling
 
 ---
+
+## 💡 Sample Workflow Diagram
+
+```mermaid
+graph TD;
+  A[Week 1: MNIST] --> B[Week 2: ComfyUI + Masking];
+  B --> C[Week 3: ControlNet & Refinement];
+  C --> D[Week 4: OAuth + Deployment];
+
+```
 
 ## Let’s Connect
 
