@@ -42,12 +42,16 @@ Whether you're a fellow intern, mentor, or someone curious about the process —
 
 ## Weekly Progress Logs
 
+## Weekly Progress Logs
+
 | Week | Dates               | Highlights                                      |
 |------|---------------------|--------------------------------------------------|
-| [Week 01](logs/week-01.md) | May 25 – June 1   | MNIST unsupervised pretraining & binary classifier |
-| [Week 02](logs/week-02.md) | June 2 – June 8   | ComfyUI, face masking, scar inpainting             |
-| [Week 03](logs/week-03.md) | June 15 – June 22 | ControlNet, scar replacement, facial refinement    |
-| [Week 04](logs/week-04.md) | June 23 – June 30 | OAuth login in HF Spaces, Docker fixes             |
+| [Week 01]({{ site.baseurl }}/logs/week-01) | May 25 – June 1   | MNIST unsupervised pretraining & binary classifier |
+| [Week 02]({{ site.baseurl }}/logs/week-02) | June 2 – June 8   | ComfyUI, face masking, scar inpainting             |
+| [Week 03]({{ site.baseurl }}/logs/week-03) | June 15 – June 22 | ControlNet, scar replacement, facial refinement    |
+| [Week 04]({{ site.baseurl }}/logs/week-04) | June 23 – June 30 | OAuth login in HF Spaces, Docker fixes             |
+| [Week 05]({{ site.baseurl }}/logs/week-05) | July 1 – July 7   | Label Studio setup, persistent storage config, UI enhancements |
+
 
 > Updated every week with new logs and insights.
 
