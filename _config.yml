@@ -7,7 +7,6 @@ plugins:
 baseurl: "/Internship-log"
 url: "https://sanjanb.github.io/Internship-log"
 
-# Just the Docs settings
 just_the_docs:
   collections:
     logs:

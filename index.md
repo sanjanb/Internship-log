@@ -3,6 +3,7 @@ layout: default
 title: "Internship Docs"
 nav_order: 1
 has_children: true
+description: Weekly log, projects, and insights from my SynerSense internship.
 permalink: /
 ---
 
