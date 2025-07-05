@@ -8,11 +8,6 @@ baseurl: "/Internship-log"
 url: "https://sanjanb.github.io/Internship-log"
 
 just_the_docs:
-  collections:
-    logs:
-      name: "Weekly Logs"
-      output: true
-      permalink: "/logs/:name"
   enable_copy_code_button: true
   logo: /assets/images/logo.png
   favicon_ico: /assets/images/favicon.ico

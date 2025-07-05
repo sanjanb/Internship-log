@@ -13,3 +13,6 @@
       url: "/logs/week-04"
     - title: "Week 05"
       url: "/logs/week-05"
+
+- title: "Projects"
+  url: "/projects"
