@@ -43,10 +43,6 @@ Whether you're a fellow intern, mentor, or someone curious about the process —
 
 ## Weekly Progress Logs
 
-## Weekly Progress Logs
-
-## Weekly Progress Logs
-
 | Week | Dates               | Highlights                                      |
 |------|---------------------|--------------------------------------------------|
 | [Week 01](/Internship-log/logs/week-01) | May 25 – June 1   | MNIST unsupervised pretraining & binary classifier |
@@ -61,7 +57,7 @@ Whether you're a fellow intern, mentor, or someone curious about the process —
 
 ---
 
-{: .callout }
+{: .callout-info }
 ## Tools & Topics Explored
 
 - **AI/ML**: PyTorch, classification, autoencoders, inpainting
