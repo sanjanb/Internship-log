@@ -7,7 +7,10 @@ plugins:
 baseurl: "/Internship-log"
 url: "https://sanjanb.github.io/Internship-log"
 
+exclude: [README.md]
+
 just_the_docs:
+  nav_enabled: true
   enable_copy_code_button: true
   logo: /assets/images/logo.png
   favicon_ico: /assets/images/favicon.ico
