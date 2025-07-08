@@ -13,7 +13,7 @@ nav_order: 2
 
 ---
 
-## 🔍 Overview
+## Overview
 
 ControlNet is an extension of diffusion-based text-to-image generation models (like Stable Diffusion) that introduces **additional conditioning inputs** (e.g., edge maps, depth, pose) to control the output more precisely.
 
@@ -25,7 +25,7 @@ It enables:
 
 ---
 
-## 🧠 Key Concepts
+## Key Concepts
 
 - **Zero Convolution Layers** allow safe initialization to preserve pretrained weights while integrating new conditional inputs.
 - **Cloning** the main UNet backbone into two branches:
