@@ -1,4 +1,4 @@
-- title: "Internship Logs:"
+- title: "Home"
   url: "/"
 
 - title: "Weekly Logs"
@@ -14,11 +14,10 @@
     - title: "Week 05"
       url: "/logs/week-05"
 
-- title: "Projects"
-  url: "/projects"
-
-- title: "Tools"
-  url: "/tools"
-
 - title: "Learnings"
-  url: "/learnings"
+  url: "/learnings/"
+  children:
+    - title: "Multimodal Pretraining for Vision-and-Language Tasks"
+      url: "/papers/paper-01"
+    - title: "ControlNet for Guided Image Generation"
+      url: "/papers/paper-02"
