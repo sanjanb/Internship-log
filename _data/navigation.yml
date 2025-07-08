@@ -1,4 +1,4 @@
-- title: "Home"
+- title: "Internship Docs"
   url: "/"
 
 - title: "Weekly Logs"
@@ -16,3 +16,9 @@
 
 - title: "Projects"
   url: "/projects"
+
+- title: "Tools"
+  url: "/tools"
+
+- title: "Learnings"
+  url: "/learnings"
