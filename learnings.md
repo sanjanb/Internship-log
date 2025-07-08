@@ -10,7 +10,7 @@ This page documents key concepts, strategies, and research papers I studied to d
 
 ---
 
-## 📘 AI/ML Concepts
+## AI/ML Concepts
 
 - **Unsupervised Pretraining**  
   Explored the effectiveness of unsupervised feature learning using autoencoders and its impact on downstream classification.
@@ -23,7 +23,7 @@ This page documents key concepts, strategies, and research papers I studied to d
 
 ---
 
-## 🧪 Research Papers Studied
+## Research Papers Studied
 
 | Title | Source | Summary |
 |-------|--------|---------|
@@ -34,7 +34,7 @@ This page documents key concepts, strategies, and research papers I studied to d
 
 ---
 
-## 🧠 Personal Reflections
+## Personal Reflections
 
 > These papers and tools helped me:
 > - Understand how vision and language models interact
@@ -44,7 +44,7 @@ This page documents key concepts, strategies, and research papers I studied to d
 
 ---
 
-## 📎 Links to Further Study
+## Links to Further Study
 
 - [Hugging Face Papers With Code](https://paperswithcode.com/)
 - [OpenAI Research](https://openai.com/research)
