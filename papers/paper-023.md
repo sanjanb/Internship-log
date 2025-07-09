@@ -2,7 +2,7 @@
 layout: default
 title: "Multimodal Pretraining for Vision-and-Language Tasks"
 parent: "Learnings"
-nav_order: 1
+nav_order: 2
 ---
 
 # Multimodal Pretraining for Vision-and-Language Tasks
