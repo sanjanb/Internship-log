@@ -2,7 +2,7 @@
 layout: default
 title: "ControlNet for Guided Image Generation"
 parent: "Learnings"
-nav_order: 2
+nav_order: 3
 ---
 
 # ControlNet for Guided Image Generation
