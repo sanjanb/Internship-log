@@ -2,7 +2,7 @@
 layout: default
 title: "CLIP: Transferable Visual Models from Language"
 parent: "Learnings"
-nav_order: 4
+nav_order: 2
 ---
 
 # CLIP: Transferable Visual Models from Language
