@@ -1,5 +1,4 @@
-
-MASTERCLASS: Vision-Language Modeling with CLIP + Custom Architectures in PyTorch
+# MASTERCLASS: Vision-Language Modeling with CLIP + Custom Architectures in PyTorch
 
 ---
 
