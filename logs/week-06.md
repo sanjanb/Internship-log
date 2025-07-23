@@ -5,9 +5,9 @@ parent: Weekly Logs
 nav_order: 6
 ---
 
-# Week 06 – Dataset Curation, Facial Landmarking, and CLI Tools
+# Week 06 – Research Paper Study & Adaptation
 
-**Dates**: 2025-07-08 – 2025-07-14.
+**Dates**: 2025-07-08 – 2025-07-14
 **Internship**: AI/ML Intern at SynerSense Pvt. Ltd.
 **Mentor**: Praveen Kulkarni Sir
 
@@ -17,27 +17,28 @@ nav_order: 6
 
 ### Focus
 
-This week concentrated on preparing datasets for facial analysis, creating scripts for automated cropping and landmarking, and exploring CLI-based efficiency tools.
+This week was focused on understanding high-impact research papers related to facial recognition and multimodal learning. The insights helped us benchmark approaches and select the right direction for extending our current work — all within NDA constraints.
 
 ---
 
 ## Goals for the Week
 
-* Curate and preprocess facial datasets for recognition tasks
-* Extract landmarks and keypoints from image samples
-* Develop reusable CLI scripts for dataset pipeline tasks
-* Speed up experimentation through image filters and masks
+* Analyze top papers including DeepFace, CelebA, and MS-Celeb-1M
+* Identify architectural and training strategies from published work
+* Extract reusable code components or libraries
+* Build internal notes for adaptation (non-disclosable externally)
 
 ---
 
 ## Tasks Completed
 
-| Task                                               | Status      | Notes                                            |
-| -------------------------------------------------- | ----------- | ------------------------------------------------ |
-| Downloaded and cleaned dataset from CelebA         | ✅ Completed | Filtered high-quality aligned faces              |
-| Implemented facial landmark extraction             | ✅ Completed | Used Dlib + OpenCV for 68-point facial landmarks |
-| Built CLI cropping & resize tool                   | ✅ Completed | Takes image folder and bounding boxes as input   |
-| Designed basic image filter pipelines (blur, mask) | ✅ Completed | Included grayscale, Gaussian blur, binary mask   |
+| Task                                                 | Status      | Notes                                                  |
+| ---------------------------------------------------- | ----------- | ------------------------------------------------------ |
+| Reviewed DeepFace CVPR 2014 Paper                    | ✅ Completed | Extracted high-level architecture and pre-processing   |
+| Summarized CelebA Dataset Usage & Purpose            | ✅ Completed | Documented data splits and key attributes              |
+| Reviewed MS-Celeb-1M Large-Scale Benchmark           | ✅ Completed | Noted benchmark criteria, dataset challenges           |
+| Matched CLIP/VLM output to internal project pipeline | ✅ Completed | Used vision encoder outputs in internal test framework |
+| Maintained private internal analysis notes (NDA)     | ✅ Completed | For mentor review, not open-sourced                    |
 
 ---
 
@@ -45,38 +46,41 @@ This week concentrated on preparing datasets for facial analysis, creating scrip
 
 {: .callout-success }
 
-* Learned how to automate dataset preprocessing steps
-* Improved proficiency with OpenCV, Dlib, and face alignment
-* Created CLI tools that reduce redundant image processing effort
-* Observed that clean and aligned datasets boost model stability
+* Paper reading deepens understanding of **real-world implementations**
+* Face verification success hinges on **alignment + representation**
+* Vision-language models (like CLIP) can be modularized efficiently
+* Datasets vary in complexity, annotation quality, and usage rights
 
 ---
 
 ## Problems Faced & Solutions
 
-| Problem                             | Solution                                                 |
-| ----------------------------------- | -------------------------------------------------------- |
-| Bounding box errors during cropping | Adjusted coordinates with margins to avoid cutting faces |
-| Low confidence landmark detection   | Applied CLAHE (contrast enhancement) before detection    |
-| CLI errors on large batches         | Used multiprocessing and file-safe loops                 |
+| Problem                           | Solution                                       |
+| --------------------------------- | ---------------------------------------------- |
+| No direct code in papers          | Used matching PyPI libraries (e.g., DeepFace)  |
+| Understanding legacy methods      | Referred to official benchmark sites and repos |
+| Need to protect internal insights | Maintained internal-only notebooks (under NDA) |
 
 ---
 
-## 📌 References
+## 📎 References
 
-* [CelebA Dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
-* [Dlib Facial Landmarking](http://dlib.net/face_landmark_detection.py.html)
-* [OpenCV Docs](https://docs.opencv.org/)
+* [DeepFace Paper (CVPR 2014)](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf)
+* [CelebA Dataset Page](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+* [MS-Celeb-1M Microsoft](https://www.microsoft.com/en-us/research/publication/ms-celeb-1m-dataset-benchmark-large-scale-face-recognition-2/)
+* [CLIP via Hugging Face](https://huggingface.co/openai/clip-vit-base-patch32)
 
 ---
 
 ## Goals for Next Week
 
-* Train on facial embeddings using Siamese architecture
-* Compare triplet loss and contrastive loss embeddings
-* Begin building verification interface using Gradio
+* Integrate internal code with vision encoder embeddings
+* Begin training internal pipeline with updated feature vectors
+* Prepare learnings page with clean summaries (non-sensitive)
 
 ---
 
 {: .callout }
-*"This week helped me set the foundation for facial verification by preparing clean, aligned, and well-structured data."*
+*“Digging into the foundational papers gave me clarity on the ‘why’ behind popular architectures — this shapes how we build our own smarter, compliant solutions.”*
+
+---
