@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: Week 06
 parent: Weekly Logs
