@@ -5,7 +5,7 @@ parent: Weekly Logs
 nav_order: 7
 ---
 
-# Week 07 – Face Embedding Models and Verification UI
+# Week 07 – Embedding Paper Techniques into Models
 
 **Dates**: 2025-07-15 – 2025-07-21
 **Internship**: AI/ML Intern at SynerSense Pvt. Ltd.
@@ -17,27 +17,28 @@ nav_order: 7
 
 ### Focus
 
-This week focused on building face embeddings using Siamese networks and developing a basic Gradio interface for face verification.
+This week was dedicated to applying the learnings from research papers into our internal pipeline. We experimented with model slicing, feature transfer, and designing modular networks.
 
 ---
 
 ## Goals for the Week
 
-* Build and train a Siamese Network on facial data
-* Visualize embeddings with PCA/t-SNE plots
-* Create Gradio demo for pairwise verification
-* Understand loss functions: Triplet vs. Contrastive
+* Adapt pretrained CLIP visual encoder with custom classifier
+* Test inference pipeline with sample dataset
+* Build scripts to visualize intermediate embeddings
+* Clean up the learnings section with proper structure
 
 ---
 
 ## Tasks Completed
 
-| Task                                      | Status      | Notes                                                |
-| ----------------------------------------- | ----------- | ---------------------------------------------------- |
-| Built a Siamese model with twin encoders  | ✅ Completed | Shared weights, used Euclidean distance layer        |
-| Trained on pairs with contrastive loss    | ✅ Completed | Also tested triplet loss for comparison              |
-| Created basic Gradio app for verification | ✅ Completed | Users can upload two photos and see similarity score |
-| Embedded data visualized with PCA & t-SNE | ✅ Completed | Separated clusters for same vs. different identities |
+| Task                                                | Status      | Notes                                                  |
+| --------------------------------------------------- | ----------- | ------------------------------------------------------ |
+| Integrated CLIP vision encoder with MLP head        | ✅ Completed | Used frozen encoder; trained classifier from scratch   |
+| Evaluated classification pipeline on sample images  | ✅ Completed | Achieved stable training with low loss (\~0.87)        |
+| Documented working code for VLM to MLP architecture | ✅ Completed | Recorded notebook in private repo                      |
+| Added two research summaries to Learnings section   | ✅ Completed | Each paper has callouts, code examples, and reflection |
+| NDA compliance maintained throughout documentation  | ✅ Completed | Only shared allowed portions publicly                  |
 
 ---
 
@@ -45,38 +46,37 @@ This week focused on building face embeddings using Siamese networks and develop
 
 {: .callout-success }
 
-* Learned to construct Siamese architecture using PyTorch
-* Understood the use of embeddings for verification over classification
-* Gained experience with interactive UIs using Gradio
-* Learned to visualize embedding spaces using dimensionality reduction
+* Pretrained vision encoders can significantly boost convergence
+* Modular design helps in attaching heads, slicing blocks flexibly
+* Accurate logs and markdown docs improve reproducibility
+* Reviewing loss trends helps in identifying class imbalance
 
 ---
 
 ## Problems Faced & Solutions
 
-| Problem                                      | Solution                                             |
-| -------------------------------------------- | ---------------------------------------------------- |
-| Slow training on CPU                         | Switched to Google Colab with GPU runtime            |
-| High false positives with low-res inputs     | Set minimum resolution requirements in preprocessing |
-| Confusion in contrastive vs triplet training | Trained both to compare their margin effectiveness   |
+| Problem                             | Solution                                      |
+| ----------------------------------- | --------------------------------------------- |
+| Feature mismatch from encoder       | Used `.pooler_output` and reshaped inputs     |
+| Classifier not converging initially | Tuned learning rate; applied CrossEntropyLoss |
+| Keeping learnings under NDA         | Used tags and disclaimers in markdown docs    |
 
 ---
 
-## 📌 References
+## 📎 References
 
-* [Siamese Network Tutorial](https://omoindrot.github.io/siamese-network)
-* [Gradio Docs](https://www.gradio.app/docs/)
-* [Triplet Loss Explained](https://omoindrot.github.io/triplet-loss)
+* [CLIPModel – Hugging Face](https://huggingface.co/docs/transformers/model_doc/clip)
+* [Internally adapted notebook (Private Repo)](https://github.com/sanjanb)
 
 ---
 
 ## Goals for Next Week
 
-* Integrate VLM vision encoder (CLIP) for transfer learning
-* Fine-tune MLP head for identity verification task
-* Evaluate performance against custom Siamese baseline
+* Finalize slicing strategy for full VLM to vision module
+* Extend MLP head with dropout, batchnorm
+* Prepare a sharable demo (NDA-compliant)
 
 ---
 
 {: .callout }
-*"This week taught me how to turn abstract similarity into actionable face verification using a clean UI and strong embeddings."*
+*“Week 7 was all about bridging theory and practice — papers to working code. Each experiment took us closer to a modular, trainable, and explainable VLM classifier stack.”*
