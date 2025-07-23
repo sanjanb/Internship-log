@@ -3,7 +3,7 @@ layout: default
 title: Week 06
 parent: Weekly Logs
 nav_order: 6
--------------
+---
 
 # Week 06 – Dataset Curation, Facial Landmarking, and CLI Tools
 
