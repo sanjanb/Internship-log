@@ -2,7 +2,7 @@
 layout: default
 title: Week 08
 parent: Weekly Logs
-nav\_order: 8
+nav_order: 8
 ---
 
 # Week 08 – VLM Integration and Embedding Transfer
