@@ -7,7 +7,7 @@ nav_order: 6
 
 # Week 06 – Dataset Curation, Facial Landmarking, and CLI Tools
 
-**Dates**: 2025-07-08 – 2025-07-14
+**Dates**: 2025-07-08 – 2025-07-14.
 **Internship**: AI/ML Intern at SynerSense Pvt. Ltd.
 **Mentor**: Praveen Kulkarni Sir
 
