@@ -1,10 +1,9 @@
 ---
-
 layout: default
 title: Week 07
 parent: Weekly Logs
-nav\_order: 7
--------------
+nav_order: 7
+---
 
 # Week 07 – Face Embedding Models and Verification UI
 
