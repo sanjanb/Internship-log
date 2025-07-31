@@ -111,6 +111,6 @@ def npair_loss(anchors, positives, negatives):
 
 * [NIPS 2016 Paper PDF](https://papers.nips.cc/paper_files/paper/2016/file/6b180037abbebea991d8b1232f8a8ca9-Paper.pdf)
 * [TensorFlow Implementation (Google Research)](https://github.com/tensorflow/models/tree/master/research/delf)
-* \[PyTorch Sketches in Metric Learning Repos]
+* [PyTorch Sketches in Metric Learning Repos]
 
 
